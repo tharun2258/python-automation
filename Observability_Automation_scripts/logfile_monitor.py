@@ -19,4 +19,4 @@ def monitor_log_file(log_file , output_file, pattern):
 
 
 if __name__ == "__main__":
-    monitor_log_file("C:/Users/Yamini K/SRE_LEARNINGS/Python/Practice/application.log", "error.log",r'ERROR|Exception')
+    monitor_log_file("path_of_file/application.log", "error.log",r'ERROR|Exception')
